@@ -9,8 +9,18 @@
 								<a href="#">County Government of Kisumu</a>
 							</div>
 							<div class="messaging column right">
-								<a href="login.html">Sign In</a>
-								<a href="register.html" id="register">Register</i></a>
+								
+								@if (Route::has('login'))
+												@if (Auth::check())
+														<a href="{{ url('/home') }}">Dashboard</a>
+												@else
+														<a href="{{ url('/login') }}">Sign In</a>
+														<a href="{{ url('/register') }}">Register</a>
+												@endif
+								@endif
+
+
+
 							</div>
 						</div>
 				</div>

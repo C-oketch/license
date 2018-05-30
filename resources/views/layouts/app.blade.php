@@ -88,7 +88,17 @@
                                     <span class="label label-success">{{ Auth::user()->roles->pluck('name')->first() }}</span>
                                     <span class="caret"></span>
                                 </a>
+                                <li>
+                                    <a href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                        <i class="glyphicon glyphicon-log-out"></i> Logout
+                                    </a>
 
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        {{ csrf_field() }}
+                                    </form>
+                                </li>
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         <a href="{{ route('logout') }}"

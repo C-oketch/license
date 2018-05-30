@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>County Government of Kisumu</title>
+	<!-- <title>County Government of Kisumu</title> -->
+	  <title>Afyapepe- @yield('title') </title>
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<script src="js/lib/modernizr-2.7.2.js"></script>
+	<script src="{{ asset('js/lib/modernizr-2.7.2.js') }}" type="text/javascript"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
   <link rel="stylesheet" href="{{ asset('css/flexslider.css') }}" />
