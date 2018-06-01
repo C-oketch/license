@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-lg-12">
             {!! Form::open(['route' => ['posts.store'] ]) !!}
-                @include('post._form')
+                @include('application._form')
                 <!-- Submit Form Button -->
                 {!! Form::submit('Create', ['class' => 'btn btn-primary']) !!}
             {!! Form::close() !!}

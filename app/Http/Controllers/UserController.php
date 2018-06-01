@@ -20,9 +20,20 @@ class UserController extends Controller
      */
     public function index()
     {
-        $result = User::latest()->paginate();
+        $result = User::whereHas('roles', function($q){
+          $q->where('name', 'User');
+      })->paginate();
 
         return view('user.index', compact('result'));
+    }
+    public function admin()
+    {
+
+  $result=User::whereHas('roles', function($q){
+    $q->where('name', 'Admin');
+})->paginate();
+
+        return view('user.admin', compact('result'));
     }
 
     /**

@@ -19,7 +19,7 @@ class PostController extends Controller
     public function index()
     {
         $result = Post::latest()->with('user')->paginate();
-        return view('post.index', compact('result'));
+        return view('application.all', compact('result'));
     }
 
     /**
@@ -29,7 +29,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view('post.new');
+        return view('application.new');
     }
 
     /**
@@ -73,7 +73,7 @@ class PostController extends Controller
     {
         $post = Post::findOrFail($post->id);
 
-        return view('post.edit', compact('post'));
+        return view('application.edit', compact('post'));
     }
 
     /**

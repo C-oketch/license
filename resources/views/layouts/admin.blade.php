@@ -29,10 +29,10 @@
         </div>
     <![endif]-->
     <div class="wrapper banner">
-  @include('include.user_headmenu')
+  @include('include.admin_headmenu')
 	<div class="content dashboard">
 		<div class="row clearfix">
-			  @include('include.user_left')
+			  @include('include.admin_left')
     @yield('content')
 	  </div>
 	</div>
