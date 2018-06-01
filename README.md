@@ -41,10 +41,10 @@ php artisan auth:permission Comment
 php artisan auth:permission Comment --remove
 ```
 
-https://github.com/C-oketch/license
+<!-- https://github.com/C-oketch/license
 C-oketch
 1Moketch1
 
 Admi : ncummings@example.org
 User : evangeline62@example.org
-Pswd : secret
+Pswd : secret -->
