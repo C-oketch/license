@@ -38,7 +38,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                   </p>
-                  <a href="{{ route('petrol_application') }}">get service</a>
+                  <a href="{{ route('single_application') }}">get service</a>
                 </div>
               </div>
               <div class="large-4 grid column">
@@ -48,7 +48,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                   </p>
-                  <a href="{{ route('petrol_application') }}">get service</a>
+                  <a href="{{ route('single_application') }}">get service</a>
                 </div>
               </div>
               <div class="large-4 grid column">
@@ -58,7 +58,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                   </p>
-                  <a href="{{ route('petrol_application') }}">get service</a>
+                  <a href="{{ route('single_application') }}">get service</a>
                 </div>
               </div>
             </div>

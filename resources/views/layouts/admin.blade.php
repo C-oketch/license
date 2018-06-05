@@ -7,6 +7,7 @@
 	  <title>Afyapepe- @yield('title') </title>
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 	<meta name="msapplication-TileColor" content="#ffffff">
+
 	<script src="{{ asset('js/lib/modernizr-2.7.2.js') }}" type="text/javascript"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
@@ -14,6 +15,7 @@
   <link rel="stylesheet" href="{{ asset('css/easy-responsive-tabs.css') }}" />
   <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" />
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
+
 
 	<!--[if lte IE 8]>
 		<link rel="stylesheet" href="css/ie8.css">

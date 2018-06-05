@@ -18,9 +18,20 @@ class ApplicationController extends Controller
      */
     public function index()
     {
-      return view('application.index');
+      return view('application.myapplication');
     }
 
+    public function apppet()
+    {
+      return view('application.petrol');
+    }
+
+
+
+    public function appsingle()
+    {
+      return view('application.single_application');
+    }
     /**
      * Show the form for creating a new resource.
      *

@@ -29,6 +29,8 @@ Route::group( ['middleware' => ['auth']], function() {
     Route::resource('payments', 'PaymentController');
 
     Route::get('/useradmin', 'UserController@admin')->name('useradmin');
+    Route::get('petrol_application', 'ApplicationController@apppet')->name('petrol_application');
+    Route::get('single_application', 'ApplicationController@appsingle')->name('single_application');
 
 
 });

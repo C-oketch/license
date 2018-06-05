@@ -9,7 +9,7 @@
 								<a href="#">County Government of Kisumu</a>
 							</div>
 							<div class="messaging column right">
-								
+
 								@if (Route::has('login'))
 												@if (Auth::check())
 														<a href="{{ url('/home') }}">Dashboard</a>
@@ -206,7 +206,7 @@
 				<div class="row clearfix">
 					<div class="write_up clearfix">
 						<h1>Get Started?</h1>
-						<a href="javascript:void();">Register Now</a>
+						<a href="{{ url('/register') }}">Register Now</a>
 					</div>
 				</div>
 			</div>

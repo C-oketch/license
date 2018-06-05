@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!-- <title>County Government of Kisumu</title> -->
-	  <title>Afyapepe- @yield('title') </title>
+	  <title>CGK- @yield('title') </title>
 	<link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<script src="{{ asset('js/lib/modernizr-2.7.2.js') }}" type="text/javascript"></script>

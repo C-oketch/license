@@ -17,6 +17,12 @@
                 <li>
                  <a href="dashboard.html" class="active"><i class="fa fa-line-chart" aria-hidden="true"></i>Dashboard</a>
                </li>
+
+               @can('view_roles')
+               <li class="{{ Request::is('roles*') ? 'active' : '' }}">
+                <a href="{{ route('roles.index') }}"><i class="fa fa-line-chart" aria-hidden="true"></i>Roles</a>
+              </li>
+               @endcan
                <li class="has-children">
                  <a href="users.html" class="toggle"><i class="fa fa-th"></i>manage users</a>
                  <ul class="sub-nav">

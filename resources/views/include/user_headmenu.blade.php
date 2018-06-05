@@ -37,9 +37,7 @@
               <div class="user right column">
                 <a href="login.html" class="profile_pic"><img src="images/prof.jpg" alt="user" /></a>
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                    {{ Auth::user()->name }}
-                    <span class="label label-success"></span>
-                    <span class="caret"></span>
+                    {{ Auth::user()->name }}<i class="fa fa-chevron-down" aria-hidden="true"></i>
                 </a>
 
                 <!-- <a href="javascript:void()"><span>Emmanuel Rono</span> <i class="fa fa-chevron-down" aria-hidden="true"></i></a> -->

@@ -31,7 +31,8 @@ class UserController extends Controller
 
   $result=User::whereHas('roles', function($q){
     $q->where('name', 'Admin');
-})->paginate();
+    })
+    ->paginate();
 
         return view('user.admin', compact('result'));
     }
